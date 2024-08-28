@@ -1,63 +1,63 @@
-<header>
-  <div class="header-container">
-    <a href="/src/index.html" class="header-link">LuxuryYacht</a>
-    <nav>
-      <ul class="header-nav-list">
-        <li class="header-nav-list-item">
-          <a class="header-nav-list-btn" href="#about-section">About</a>
+<header class="header" id="header">
+  <div class="container">
+    <a href="./index.html" class="header-logo"
+      >Lloyd<span class="logo-second-name">Jefferson.</span>
+    </a>
+
+    <button class="button-background">
+      <svg class="icon-btn" fill="none">
+        <rect width="48" height="24" fill="#E4E5E6" rx="12" />
+        <circle cx="12" cy="12" r="10" fill="#00B068" />
+        <use href="./img/symbol-defs.svg#icon-light"></use>
+      </svg>
+      <svg class="icon-btn-black" fill="none">
+        <rect width="48" height="24" fill="#2A2D32" rx="12" />
+        <path
+          fill="#14C57C"
+          fill-rule="evenodd"
+          d="M32 21.168c3.532-1.543 6-5.067 6-9.168 0-4.1-2.468-7.625-6-9.168A9.966 9.966 0 0 1 36 2c5.523 0 10 4.477 10 10s-4.477 10-10 10a9.966 9.966 0 0 1-4-.832Z"
+          clip-rule="evenodd"
+        />
+        <use href="./img/symbol-defs.svg#icon-dark"></use>
+      </svg>
+    </button>
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="#about-me" class="nav-link wight">About me</a>
         </li>
-        <li class="header-nav-list-item">
-          <a class="header-nav-list-btn" href="#yacht-section">Yachts</a>
+        <li class="nav-list-item">
+          <a href="#my-projects" class="nav-link">Projects</a>
         </li>
-        <li class="header-nav-list-item">
-          <a class="header-nav-list-btn" href="#reviews-section">Reviews</a>
+        <li class="nav-list-item">
+          <a href="#work-togezer" class="nav-link">Contacts</a>
         </li>
       </ul>
+      <button type="button" class="menu-btn">
+        <svg width="24" height="24" class="header-icon">
+          <use href="./img/symbol-defs.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
     </nav>
-    <ul class="header-social-list">
-      <li class="header-social-list-item">
-        <a
-          class="header-social-list-item-link"
-          href="https://www.instagram.com/m.makovskyi/"
-          target="_blank"
-        >
-          <svg class="header-social-icon" width="20" height="20" fill="none">
-            <use href="./img/symbol-defs.svg#icon-instagram"></use>
-          </svg>
+  </div>
+  <div class="menu-backdrop">
+    <div class="mobile-menu-wrap container">
+      <div class="modal-header">
+        <a href="./index.html" class="header-logo"
+          >Lloyd<span class="logo-second-name">Jefferson.</span>
         </a>
-      </li>
-      <li class="header-social-list-item">
-        <a
-          class="header-social-list-item-link"
-          href="https://www.youtube.com/watch?v=wUgJ_qEvI0E"
-          target="_blank"
-        >
-          <svg class="header-social-icon" width="20" height="20" fill="none">
-            <use href="./img/symbol-defs.svg#icon-youtube"></use>
+        <button type="button" class="close-modal-btn">
+          <svg width="32" height="32" class="header-icon">
+            <use href="./img/symbol-defs.svg#icon-cross-x"></use>
           </svg>
-        </a>
-      </li>
-      <li class="header-social-list-item">
-        <a
-          class="header-social-list-item-link"
-          href="https://www.facebook.com/profile.php?id=100077980427553&mibextid=LQQJ4d"
-          target="_blank"
-        >
-          <svg class="header-social-icon" width="20" height="20" fill="none">
-            <use href="./img/symbol-defs.svg#icon-facebook"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
-    <button class="header-burger-btn" type="button">
-      <svg class="header-burger-icon" width="28" height="28" fill="none">
-        <use href="/img/symbol-defs.svg#icon-burger-menu"></use>
-      </svg>
-    </button>
-    <button type="button" class="header-close-btn">
-      <svg class="header-close-icon" width="16" height="16" fill="none">
-        <use href="./img/symbol-defs.svg#icon-close-menu"></use>
-      </svg>
-    </button>
+        </button>
+
+        <ul class="backdrop-menu-list">
+          <li><a href="#about-me" class="nav-link">About me</a></li>
+          <li><a href="#my-projects" class="nav-link">Projects</a></li>
+          <li><a href="#work-togezer" class="nav-link">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </header>
